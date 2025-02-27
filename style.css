@@ -270,6 +270,7 @@ body {
 .service-box p {
     font-size: 14px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 /* Know More Button */
@@ -396,7 +397,7 @@ body {
 .blogs-container {
     display: flex;
     gap: 20px;
-    animation: scrollBlogs 15s linear infinite;
+    animation: scrollBlogs 30s linear infinite;
     width: fit-content;
 }
 
@@ -404,7 +405,7 @@ body {
     background: #1a1a1a;
     border-radius: 10px;
     overflow: hidden;
-    width: 300px;
+    width: 400px;
     transition: transform 0.3s ease-in-out;
     flex: none;
     position: relative;
@@ -440,6 +441,7 @@ body {
 .blog-content p {
     font-size: 1rem;
     color: #ccc;
+    text-align: justify;
 }
 
 .read-more {
